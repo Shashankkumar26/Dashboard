@@ -90,7 +90,7 @@ function updatePatientData(patientIndex) {
     const currentPatient = patients[patientIndex];
     document.getElementById("patientName").textContent = currentPatient.name;
     document.getElementById("patientAge").textContent = currentPatient.age;
-    document.getElementById("patientGlucose").textContent = currentPatient.glucose;
+    document.getElementById("glucose").textContent = currentPatient.glucose;
     document.getElementById("patientBloodGroup").textContent = currentPatient.information.bloodGroup;
     document.getElementById("patientSex").textContent = currentPatient.information.sex;
     document.getElementById("patientAllergies").textContent = currentPatient.information.allergies.join(", ");
